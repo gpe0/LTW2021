@@ -1,0 +1,14 @@
+#comments p {
+    background-color: rgb(212, 212, 212);
+    padding: 1em;
+    width: 95%;
+    position: relative;
+    left : 1.25%;
+}
+
+#comments p:before {
+    content: "“";
+    font-size: 3em;
+    color : rgb(161, 161, 161);
+    height: 0;
+}

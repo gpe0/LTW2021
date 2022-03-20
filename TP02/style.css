@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:400,700|Poppins:300,200');
+
+* {
+    font-family : 'Poppins';
+    text-decoration: none;
+}
+
+header h1 {
+    position: relative;
+    right: -1em;
+}
+
+header h2 {
+    position: relative;
+    right: -1em;
+}
+
+body > header:first-child {
+    color: white;
+    background-color: #046DD5;
+    margin: 0 auto;
+}
+
+a {
+    color : white;
+    font : 1.4em;
+}
+
+p {
+    font-family:  'Lora', 'Serif';
+}
+#menu {
+    text-align : center;
+}
+
+#menu a {
+    color : #2A2F33;
+    font : 1.4em bold;
+}
+
+#related {
+    background-color : #2A2F33;
+    color : white;
+}
+
+
+footer {
+    background-color: #F4655F;
+    color : white;
+    padding: 0.6em;
+}
+
+img {
+    width : 100%;
+}
+
+article header {
+    height: 0;
+    position: relative;
+    top: 2em;
+    font-size: 1.4em;
+    padding-left: 1em;
+    text-shadow: 0.2em 0.2em 0.4em black;
+}
+
+#news > article > p:first-of-type::first-letter {
+    font : 1.9em bold;
+}
+
+#hamburger {
+    display : none;
+}
+
+#signup {
+    padding-left: 1em;
+    padding-bottom: 0.4em;
+    font-size: 1.3em;
+}
+
+a[href="register.html"] {
+    border-right: 0.08em solid white;
+    padding-right : 0.3em;
+}
+
+body > footer:last-child {
+    background-color: #2A2F33;
+    color : white;
+    padding: 0.6em;   
+}
+
+ul {
+    margin : 0em auto;
+    list-style-type: none;
+    margin-left : -2.5em;
+}
+
+li {
+    padding: 0.6em;
+}
+
+li:first-of-type {
+    border-top: 0.4em solid red;
+}
+
+li:first-of-type + li{
+    border-top: 0.4em solid lightgreen; 
+}
+
+li:first-of-type + li + li{
+    border-top: 0.4em solid purple; 
+}
+
+li:first-of-type + li + li + li{
+    border-top: 0.4em solid orange; 
+}
+
+li:first-of-type + li + li + li + li{
+    border-top: 0.4em solid aqua; 
+}
+
+li:first-of-type + li + li + li + li + li{
+    border-top: 0.4em solid pink; 
+}
+
+#menu li:hover {
+    background-color: #2A2F33;
+}
+
+#menu ul li:hover a {
+    color : white;
+}

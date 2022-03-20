@@ -1,0 +1,52 @@
+#menu > ul {
+    display: flex;
+}
+
+#menu > ul li {
+    width: 16em;
+    background-color: white;
+}
+
+#signup {
+    position: relative;
+    text-align: right;
+    top: -1em;
+    left: -1em;
+}
+
+body {
+    background-color: rgb(230, 230, 230);
+    display: grid;
+    grid-template-columns: 6fr 1fr;
+    grid-template-rows: auto auto 1fr auto;
+
+    grid-template-areas: "header header"
+    "menu  aside"
+    "content  aside"
+    "footer footer";
+}
+
+body > header {
+ grid-area: header;
+ width: 100%;
+}
+
+#menu {
+    grid-area: menu;
+    padding-bottom: 1.2em;
+}
+
+#related {
+    padding: 1em;
+    grid-area: aside;
+}
+
+#news {
+    grid-area: content;
+    background-color: white;
+}
+
+body > footer {
+    grid-area: footer;
+}
+
